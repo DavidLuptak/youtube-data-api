@@ -52,10 +52,8 @@ end
 
 # main
 
-developer_key = ARGV[0]
+developer_key = ARGV.shift
 
-# shift ARGV -- starts from 2nd element
-ARGV.shift
 ARGV.each do |video_id|
   results << {
     'developer key' => developer_key,
