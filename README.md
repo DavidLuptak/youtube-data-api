@@ -34,7 +34,7 @@ will produce this API response
 
 ## Usage
 Via command line interface:
-`$ bundle exec ./app.rb <developer_key> <video_id>`.
+`$ bundle exec ./app.rb <developer_key> <video_id>...`.
 
 #### What is `<developer_key>`?
 Refers to https://developers.google.com/youtube/2.0/developers_guide_protocol#Developer_Key.
